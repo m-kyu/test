@@ -1,0 +1,38 @@
+@import url('../common.css');
+
+.t_1_1{
+    width:300px;
+    background: #fff;
+    padding:40px;
+    margin:16% auto;
+    text-align:center;
+}
+.t_1_1 h1{}
+.t_1_1 p{}
+
+
+.t_2{
+    width:700px; 
+    margin:0 auto;
+    border:1px solid #00f;
+/*    overflow:hidden;*/
+}
+.t_2::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.t_2 .t_1_1:nth-of-type(1){
+    float:left;
+}
+.t_2 .t_1_1:nth-of-type(2){
+    float:right;
+}
+
+
+
+
+
+
+
+
